@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 输入区域 -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 邮箱 -->
+        <EditText
+            android:id="@+id/et_email"
+            android:hint="@string/hint_email"
+            android:textColor="@color/text_dark"
+            android:textColorHint="@color/hint"
+            android:background="@drawable/bg_input_soft"
+            android:padding="18dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <!-- 密码 -->
+        <EditText
+            android:id="@+id/et_password"
+            android:hint="@string/hint_password"
+            android:textColor="@color/text_dark"
+            android:textColorHint="@color/hint"
+            android:inputType="textPassword"
+            android:background="@drawable/bg_input_soft"
+            android:padding="18dp"
+            android:layout_marginBottom="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <!-- 注册按钮 -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_register"
+            android:text="@string/btn_register"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:backgroundTint="@color/primary_soft"
+            app:cornerRadius="30dp"
+            android:layout_marginBottom="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.Secondhand"
+        parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <style name="Theme.Secondhand"
+        parent="Base.Theme.Secondhand" />
+
+    <style name="Theme.CameraDemo"
+        parent="Theme.Material3.DayNight.NoActionBar" />
+
+</resources>
