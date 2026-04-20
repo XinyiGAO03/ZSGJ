@@ -1,0 +1,11 @@
+com\zhongshi\backend\auth\AuthController.class
+com\zhongshi\backend\auth\User.class
+com\zhongshi\backend\config\WebConfig.class
+com\zhongshi\backend\auth\LoginRequest.class
+com\zhongshi\backend\common\ApiResponse.class
+com\zhongshi\backend\product\Product.class
+com\zhongshi\backend\product\ProductRepository.class
+com\zhongshi\backend\product\ProductController.class
+com\zhongshi\backend\ZsgBackendApplication.class
+com\zhongshi\backend\auth\UserRepository.class
+com\zhongshi\backend\auth\RegisterRequest.class
